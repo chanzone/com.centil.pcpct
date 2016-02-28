@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/contact/pcpct</path>
+    <page_callback>CRM_Pcpct_Page_Main</page_callback>
+    <title>Personal Campaign</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/contact/pcpct-ajax</path>
+    <page_callback>CRM_Pcpct_Common_Func::getPcpAjax</page_callback>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
